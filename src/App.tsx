@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import View from './pages/view';
+import Register from "./pages/login"
 
 function App() {
   return (
     <div className="App">
+      <Register/>
+      <View/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img  className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
